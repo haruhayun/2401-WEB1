@@ -1,0 +1,13 @@
+1. vs code (visual studio code)
+코드 자동완성 / 코드오류 알려줌
+
+2. 깃허브 가입 (개발자 커뮤니티/깃관리/클라우드)
+
+3. 깃허브 데스크탑
+
+4. 개인 pc에도 파일 설치후 repository 연결 
+
+file - clone repository
+
+push - 업로드
+pull - 다운로드
