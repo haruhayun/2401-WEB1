@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이퍼링크</title>
+</head>
+<body>
+    <!-- 임시링크 -->
+    <a href="#">텍스트</a>
+    <!-- 기본적인 사용방법 -->
+    <a href="https://naver.com">네이버</a>
+    
+    <!-- alt + 방향키로 줄단위 위치변경가능 -->
+
+    <!-- line12와 똑같이 작동 -->
+    <a href="https://naver.com" target="_self">셀프(기본값)</a>
+    <!-- 새로운 탭을 열어 페이지를 로드한다 -->
+    <a href="https://naver.com" target="_blank">블랭크</a>
+    <!-- iframe 태그와 함께 사용해야하는 속성으로 iframe의 부모 페이지에 로드한다 -->
+    <a href="https://naver.com" target="_parent">parent</a>
+    <!-- iframe이 2중 이상 중복되어있을 때, 사용할 수 있다 -->
+    <!-- 최상위 웹페이지에 로드한다 -->
+    <a href="https://naver.com" target="_top"></a>
+
+    <!-- iframe태그는 웹사이트 안에 다른 웹사이트를 넣을 때 사용함 -->
+    <!-- 일반적으로 구글 애드센스나 유튜브영상 공유등에서 볼 수 있는 태그 -->
+    <iframe src="iframe.html" frameborder="1"></iframe>
+
+    <!-- 유튜브영상 가져오기 -->
+    <iframe width="743" height="418" src="https://www.youtube.com/embed/Tu8U2w7fLlU" title="[Playlist] 너무 좋은데... 괜찮으시겠어요?ㅣ지루한 일상, 가볍게 듣기 좋은 데일리 팝ㅣdamn! this playlist is so good 💙" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- 전화앱으로 연결 -->
+    <a href="tel:114">114에 전화하기</a>
+    <!-- 문자앱으로 연결 -->
+    <a href="sms:010-1234-5678">문자메시지 보내기</a>
+    <!-- 메일앱으로 연결 -->
+    <a href="mailto:admin@sbsart.com">관리자에게 메일 보내기</a>
+
+    
+</body>
+</html>
