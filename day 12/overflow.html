@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keat 8-5</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    .container {
+        display: flex;
+        gap: 30px;
+        padding: 10px;
+    }
+ 
+    .flow-contents {
+        height: auto;
+    }
+    .hidden-contents {
+        overflow: hidden;
+
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="box">
+        <h4> 콘텐츠 양이 일정</h4>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat dicta deleniti sequi, voluptatum, atque, dolores repellendus alias eos ab repudiandae nesciunt eaque asperiores quam culpa totam unde! Asperiores, delectus?</p>
+    </div>
+
+    <div class="box">
+        <h4> 콘텐츠의 양이 많거나 유동적일 때 흘러 넘침</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat dignissimos rerum debitis atque eaque ipsam quidem voluptatem odio, porro modi animi. Ratione hic sint amet libero id, nulla odio quibusdam!</p>
+
+    </div>
+
+    <div class="box flow-contents">
+        <h4> 콘텐츠의 양에 따라서 높이가 늘어남</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci similique dignissimos, officiis animi perspiciatis dolorem officia deleniti ad dolorum quasi obcaecati quos excepturi optio praesentium vel aut ipsum aperiam veritatis.</p>
+
+    </div>
+
+    <div class="box hidden-contents">
+        <h4> 박스의 지정된 높이만큼만 콘텐츠가 보임</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, assumenda dolore? Optio pariatur debitis repellat dicta inventore, et iure nemo culpa dignissimos placeat officiis omnis corporis? Officiis nostrum at consequatur!</p>
+    </div>
+</div>
+</body>
+</html>

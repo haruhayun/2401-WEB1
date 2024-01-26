@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keat 8-6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .scroll-box {
+            overflow: scroll;
+            /* 이런식으로 overflow 자체에 스크롤 속성을 넣으면 x, y 양방향 스크롤이 생기는 문제가 있다 */
+            width: 200px;
+            height: 200px;
+        }
+        .scroll-y-box {
+            width: 200px;
+            height: 200px;
+            overflow-y: auto;
+        }
+
+        .scroll-y-box::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="scroll-box">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro expedita quae voluptatum officia perspiciatis, pariatur reiciendis libero esse mollitia nesciunt necessitatibus dolorem provident adipisci nisi dignissimos commodi sapiente iusto nihil?
+    
+    </div>
+
+    <div class="scroll-y-box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perferendis provident ipsum molestias consectetur ex quisquam, nihil sapiente dolorum saepe quibusdam! Sint dolore, accusantium dolores doloribus quis recusandae aut repudiandae.
+    </div>
+    
+</body>
+</html>
