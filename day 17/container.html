@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            display: block;
+            width: 100%;
+        }
+        .section-container {
+            border: 1px solid #222;
+            /* width: 100%는 기본 값 */
+
+            /* max-width는 제약을 걸어주는 속성 */
+            /* 이렇게 작성하면 부모가 1302px 보다 클 때는 1302px, */
+            /* 그보다 작을 때는 부모의 크 기를 100%로 따라간다 */
+
+
+            max-width: 1302px;
+            margin: 0 auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="section-container">
+
+            <div class="test">
+                <h2>제목</h2>
+                <p>내용</p>
+                <img src="../img/멍 (13).jpeg" alt="뭉뭉">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
